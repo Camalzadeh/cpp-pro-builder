@@ -3,7 +3,11 @@
   "displayName": "C++ Pro Builder (No CMake)",
   "description": "A clean setup for C/C++ builds without CMake, featuring automatic output to build/cpp and build/c folders.",
   "version": "1.0.0",
-  "publisher": "YourPublisherName",
+  "publisher": "Jamalzadeh",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Camalzadeh/cpp-pro-builder.git"
+  },
   "engines": {
     "vscode": "^1.70.0"
   },
