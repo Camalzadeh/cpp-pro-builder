@@ -1,0 +1,27 @@
+{
+  "name": "cpp-pro-builder",
+  "displayName": "C++ Pro Builder (No CMake)",
+  "description": "A clean setup for C/C++ builds without CMake, featuring automatic output to build/cpp and build/c folders.",
+  "version": "1.0.0",
+  "publisher": "YourPublisherName",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Other"
+  ],
+  "extensionDependencies": [
+    "formulahendry.code-runner"
+  ],
+  "contributes": {
+    "configurationDefaults": {
+      "code-runner.runInTerminal": true,
+      "code-runner.saveFileBeforeRun": true,
+      "code-runner.executorMap": {
+        "cpp": "$d = '$dir'.Trim(' \\\"'); $src = '$fullFileName'.Trim(' \\\"'); $w = '$workspaceRoot'.Trim(' \\\"'); $rel = $d.Replace($w, '').Trim('\\\\'); $bd = \"$w\\build\\cpp\\$rel\"; if (!(Test-Path $bd)) { mkdir $bd }; g++ \"$src\" -o \"$bd\\$fileNameWithoutExt.exe\"; & \"$bd\\$fileNameWithoutExt.exe\"",
+        "c": "$d = '$dir'.Trim(' \\\"'); $src = '$fullFileName'.Trim(' \\\"'); $w = '$workspaceRoot'.Trim(' \\\"'); $rel = $d.Replace($w, '').Trim('\\\\'); $bd = \"$w\\build\\c\\$rel\"; if (!(Test-Path $bd)) { mkdir $bd }; gcc \"$src\" -o \"$bd\\$fileNameWithoutExt.exe\"; & \"$bd\\$fileNameWithoutExt.exe\""
+      }
+    }
+  }
+}
