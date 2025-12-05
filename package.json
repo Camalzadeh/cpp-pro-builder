@@ -2,6 +2,8 @@
   "name": "cpp-pro-builder",
   "displayName": "C++ Pro Builder (No CMake)",
   "description": "A clean setup for C/C++ builds without CMake, featuring automatic output to build/cpp and build/c folders.",
+  "icon": "logo.png",
+  "author": "Camalzadeh",
   "version": "1.0.0",
   "publisher": "Jamalzadeh",
   "repository": {
