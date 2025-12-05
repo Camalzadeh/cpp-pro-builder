@@ -1,12 +1,16 @@
 # 🚀 C++ PRO BUILDER (NO-CMAKE)
 
-![C++ Pro Builder Logo](https://raw.githubusercontent.com/Camalzadeh/cpp-pro-builder/main/logo.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Camalzadeh/cpp-pro-builder/main/logo.png" alt="InMyTime Logo" width="150" />
+</p>
+
 [![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/YourPublisher.cpp-pro-builder?color=blue&label=Marketplace)](https://marketplace.visualstudio.com/items?itemName=YourPublisher.cpp-pro-builder)
 [![GitHub license](https://img.shields.io/github/license/Camalzadeh/cpp-pro-builder)](LICENSE)
 
 This **VS Code Extension** provides a professional, zero-setup environment for compiling C and C++ single files on **Windows (PowerShell)** without the overhead of **CMake** or complex build systems.
 
 It solves the two most common development frustrations: **messy root directories** and **build conflicts**.
+
 
 ---
 
